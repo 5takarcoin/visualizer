@@ -1,0 +1,36 @@
+.bar {
+  background-color: #548ca8;
+  display: flex;
+  align-items: flex-end;
+  width: 10px;
+  flex-grow: 1;
+}
+
+p {
+  padding-left: 10px;
+}
+
+.pro {
+  position: relative;
+}
+
+.pro::after {
+  background-color: #334257;
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+}
+.proside {
+  position: relative;
+}
+
+.proside::after {
+  background-color: #476072;
+  content: "";
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+}

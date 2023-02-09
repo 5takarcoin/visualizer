@@ -1,0 +1,27 @@
+.flip {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: end;
+  height: 75vh;
+  width: 80vw;
+  gap: 1px;
+  margin-top: 30px;
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  width: 60vw;
+}
+
+button {
+  padding: 10px 20px;
+  margin: -20px auto;
+  font-size: 20px;
+  background-color: cyan;
+  color: black;
+  outline: none;
+  border: none;
+}

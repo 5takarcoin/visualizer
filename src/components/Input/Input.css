@@ -1,0 +1,18 @@
+.input {
+  width: 80vw;
+  display: flex;
+  height: 5vh;
+}
+
+.inputField {
+  height: 100%;
+  width: 20%;
+  font-size: 20px;
+  padding: 10px;
+  border: none;
+  outline: none;
+}
+
+button {
+  height: 50px;
+}
