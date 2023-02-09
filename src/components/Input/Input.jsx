@@ -31,10 +31,11 @@ const Input = () => {
   };
   return (
     <>
-      <button className="change" onClick={() => setManual(!manual)}>
+      {/* <button className="change" onClick={() => setManual(!manual)}>
         {manual ? "Generate" : "Input"}
-      </button>
-      <div className="input">
+      </button> */}
+      <button onClick={generateArr}>Generate</button>
+      {/* <div className="input">
         {manual ? (
           <input
             type="text"
@@ -52,7 +53,7 @@ const Input = () => {
             </div>
           </div>
         )}
-      </div>
+      </div> */}
     </>
   );
 };
